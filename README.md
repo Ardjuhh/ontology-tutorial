@@ -2,6 +2,11 @@
 
 The present file is created using Protege and it is based on the following - [Protege Quickstart page](https://protegewiki.stanford.edu/wiki/Protege4Pizzas10Minutes).
 
+Installing the necessary library:
+```
+pip install Owlready2
+```
+
 Running the tutorial:
 ```
 python run_script.py
