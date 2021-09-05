@@ -16,7 +16,7 @@ class Agent:
             sync_reasoner(infer_property_values=True)
         
         # Additional
-        # Reference dictionaries between IRIs and given labels that might be usefull
+        # Reference dictionaries between IRIs and given labels that might be useful
         self.label_to_class = {ent.label[0]: ent for ent in self.ontology.classes()}
         self.label_to_prop = {prop.label[0]: prop for prop in self.ontology.properties()}
 
@@ -28,7 +28,7 @@ class Agent:
         self.propery_type = type(list(self.ontology.properties())[0])
         
     def sanity_check(self):
-        # Display the labels (the name given in Protege) of all the classes & properties present in the ontology 
+        # Display the labels (the names given in Protege) of all the classes & properties present in the ontology 
         pprint(self.class_reference_dict)
         prpint(self.prop_reference_dict)
     
