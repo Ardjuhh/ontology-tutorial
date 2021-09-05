@@ -1,8 +1,8 @@
 # Ontology Tutorial
 
-The present file is created using Protege and it is based on the following - [Protege Quickstart page](https://protegewiki.stanford.edu/wiki/Protege4Pizzas10Minutes).
+The present file (onto_pizza.owl) was created using Protege and was based on the following tutorial: [Protege Quickstart Page](https://protegewiki.stanford.edu/wiki/Protege4Pizzas10Minutes).
 
-Installing the necessary library:
+Installing the necessary python library:
 ```
 pip install Owlready2
 ```
