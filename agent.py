@@ -6,7 +6,7 @@ warnings.filterwarnings("ignore")
 
 class Agent:
 
-    def __init__(self, path="onto_pizza.owl"):
+    def __init__(self, path="Ontology_Group2.rdf"):
         # Load the desired ontology using the path file
         self.ontology = get_ontology(path)
         self.ontology.load()
@@ -29,8 +29,9 @@ class Agent:
         
     def sanity_check(self):
         # Display the labels (the names given in Protege) of all the classes & properties present in the ontology 
-        pprint(self.class_reference_dict)
-        prpint(self.prop_reference_dict)
+        #pprint(self.class_to_label)
+        #pprint(self.prop_to_label)
+        print("hello")
     
     def simple_queries(self):
         print("Query responses:")

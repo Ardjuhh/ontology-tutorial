@@ -2,8 +2,8 @@ from agent import Agent
 
 def main():
     agent = Agent()
-    # agent.sanity_check()
-    agent.simple_queries()
+    agent.sanity_check()
+    #agent.simple_queries()
 
 
 if __name__ == "__main__":
